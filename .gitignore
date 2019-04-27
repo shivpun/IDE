@@ -5,3 +5,8 @@
 /core-java/target/
 /core-java/.classpath
 /core-java/.project
+/core-java-instrumentation/.settings/
+/core-java-instrumentation/bin/
+/core-java-instrumentation/.classpath
+/core-java-instrumentation/.project
+/core-java-instrumentation/target/
