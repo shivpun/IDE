@@ -9,7 +9,7 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>core-java</module>
+		<module>core-java-instrumentation</module>
 	</modules>
 
 	<dependencies>
