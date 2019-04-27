@@ -1,0 +1,5 @@
+Agent-Class: com.baeldung.instrumentation.agent.MyInstrumentationAgent
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true
+Premain-Class: org.sample.instrument.InstrumentationAgent
+Main-Class: org.sample.instrument.InstrumentationAgent
