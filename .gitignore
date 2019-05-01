@@ -11,3 +11,7 @@
 /core-java-instrumentation/.project
 /core-java-instrumentation/target/
 /core-java-instrumentation/LOGS/
+/cs-dojo/.settings/
+/cs-dojo/target/
+/cs-dojo/.project
+/cs-dojo/.classpath
