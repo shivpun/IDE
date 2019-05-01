@@ -39,14 +39,13 @@ public class InstrumentationAgent {
 	}
 
 	public static void agentmain(String agentArgs, Instrumentation inst) {
-		System.out.println("In method [agentmain] | agentArgs:" + agentArgs);
+		LOGGER.info("In method [agentmain] | agentArgs:" + agentArgs);
 	}
 
-	public static void main(String[] args) throws ClassNotFoundException, IOException, InstantiationException, IllegalAccessException {
-		StringBuilder sb = new StringBuilder();
-		for (String arg : args) {
-			sb.append(arg + " | "); 
-		}
-		LOGGER.info("In method [main] | args:" + sb.toString());
-	}
+	/*
+	 * public static void main(String[] args) throws ClassNotFoundException,
+	 * IOException, InstantiationException, IllegalAccessException { StringBuilder
+	 * sb = new StringBuilder(); for (String arg : args) { sb.append(arg + " | "); }
+	 * LOGGER.info("In method [main] | args:" + sb.toString()); }
+	 */
 }
