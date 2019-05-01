@@ -13,6 +13,6 @@ public class Example {
 	}
 	
 	public void test() {
-		System.out.println("Hello, This is ExampleClassTransformer Example");
+		System.out.println("Hello World !!");
 	}
 }
