@@ -16,3 +16,7 @@
 /cs-dojo/.project
 /cs-dojo/.classpath
 /cs-dojo/bin/
+/core-npm/.settings/
+/core-npm/.classpath
+/core-npm/.project
+/core-npm/target/

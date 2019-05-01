@@ -11,6 +11,7 @@
 	<modules>
 		<module>core-java-instrumentation</module>
 		<module>cs-dojo</module>
+		<module>core-npm</module>
 	</modules>
 
 	<dependencies>
@@ -30,7 +31,7 @@
 			<version>1.2.3</version>
 		</dependency>
 	</dependencies>
-	
+
 	<build>
 		<plugins>
 			<plugin>
