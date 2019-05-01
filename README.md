@@ -1,5 +1,4 @@
 # Tutorial
-[I'm an inline-style link](https://www.google.com)
 
 ## Step to Configure JDK
 ### A. configure JDK via [maven-compiler-plugin](https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin)
