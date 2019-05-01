@@ -1,2 +1,1 @@
-# IDE
-IDE
+# Tutorial
