@@ -9,7 +9,11 @@ java -javaagent:target\core-java-1.0.0-SNAPSHOT.jar=testAgent org.sample.instrum
 
 -javaagent:D:/VM_SHARED/build-repo/maven_repo/org/sample/core-java/1.0.0-SNAPSHOT/core-java-1.0.0-SNAPSHOT.jar
 
+For InstrumentationAgent:
 -javaagent:./src/main/resources/sample/instrumentAgent.jar
+
+For ExampleInstrumentationAgent:
+-javaagent:./src/main/resources/sample/exampleInstrumentAgent.jar
 
 Change the below According to example running:
 <Main-Class>org.sample.instrument.ExampleInstrumentationAgent</Main-Class>

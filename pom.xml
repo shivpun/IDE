@@ -10,6 +10,7 @@
 
 	<modules>
 		<module>core-java-instrumentation</module>
+		<module>cs-dojo</module>
 	</modules>
 
 	<dependencies>
