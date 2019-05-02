@@ -7,7 +7,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class InstrumentationAgent {
-	
+
 	private static final Logger LOGGER = LoggerFactory.getLogger(InstrumentationAgent.class);
 
 	{
@@ -42,10 +42,12 @@ public class InstrumentationAgent {
 		LOGGER.info("In method [agentmain] | agentArgs:" + agentArgs);
 	}
 
-	/*
-	 * public static void main(String[] args) throws ClassNotFoundException,
-	 * IOException, InstantiationException, IllegalAccessException { StringBuilder
-	 * sb = new StringBuilder(); for (String arg : args) { sb.append(arg + " | "); }
-	 * LOGGER.info("In method [main] | args:" + sb.toString()); }
-	 */
+	public static void main(String[] args) throws ClassNotFoundException, IOException, InstantiationException, IllegalAccessException {
+		StringBuilder sb = new StringBuilder();
+		for (String arg : args) {
+			sb.append(arg + " | ");
+		}
+		LOGGER.info("In method [main] | args:" + sb.toString());
+	}
+
 }
