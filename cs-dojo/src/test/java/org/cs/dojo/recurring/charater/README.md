@@ -19,3 +19,6 @@
 ##### 3. Argument Conversion
 ##### 4. Argument Aggregation
 ##### 5. Customizing Display Names
+
+#### Arrays.asList v/s ArrayList
+`You can't perform add and remove in Arrays.asList. If you want to perform add and remove operation use new ArrayList(Arrays.asList(k))`
