@@ -12,6 +12,8 @@
 		<module>core-java-instrumentation</module>
 		<module>cs-dojo</module>
 		<module>core-npm</module>
+		<module>core-java</module>
+		<module>core-java8</module>
 	</modules>
 
 	<dependencies>
