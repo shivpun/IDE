@@ -49,7 +49,7 @@ public class SampleLambda {
 		List<String> l3 = s.get();
 
 		Consumer<Integer> display = a -> System.out.println(a);
-
+		
 		Function<String, SampleLambda> sampleLambda = SampleLambda::new;
 		SampleLambda sl = sampleLambda.apply("Hello");
 		
