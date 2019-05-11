@@ -14,6 +14,7 @@
 		<module>core-npm</module>
 		<module>core-java</module>
 		<module>core-java8</module>
+		<module>core-css3</module>
 	</modules>
 
 	<dependencies>

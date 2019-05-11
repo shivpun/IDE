@@ -16,8 +16,8 @@
 ## For Example:
 ### java.util.function.Consumer
 * Integer as Argument
-java.util.function.Consumer<Integer> display = a -> System.out.println(a);
+`java.util.function.Consumer<Integer> display = a -> System.out.println(a);`
 * String as Argument
-java.util.function.Consumer<String> display = a -> System.out.println(a);
+`java.util.function.Consumer<String> display = a -> System.out.println(a);`
 ### java.util.function.Supplier
 * 
